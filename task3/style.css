@@ -1,0 +1,49 @@
+body {
+  background-color:rgb(197, 235, 197);
+  margin: 0;
+  padding: 0;
+}
+
+.container::after {
+  content: '';
+  background-image: url(https://flomaster.club/uploads/posts/2022-07/1657874800_9-flomaster-club-p-regulirovshchik-risunok-krasivo-9.png);
+  width: 400px;
+    height: 400px;
+    position: absolute;
+    background-size: cover;
+    left: 150px;
+}
+
+.container {
+  background-color: gray;
+  border-radius: 50px;
+  width: 150px;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  flex-direction: column;
+}
+
+.trafficLight {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+  .trafficLight.green {
+  background-color: green;
+  box-shadow: 0 0 25px darkgreen;
+}
+
+.trafficLight.yellow {
+  background-color: yellow;
+  box-shadow: 0 0 25px yellowgreen;
+}
+
+.trafficLight.red {
+  background-color: red;
+  box-shadow: 0 0 25px darkred;
+}

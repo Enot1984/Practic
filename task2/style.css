@@ -1,0 +1,14 @@
+body {
+    background-color:rgb(197, 235, 197);
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: blue;
+    font-family: Comic Sans, cursive;
+}
+
+code {
+    font-family: Bradley Hand, cursive;
+}

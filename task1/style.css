@@ -1,0 +1,26 @@
+body {
+    background-color:rgb(197, 235, 197);
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: rgb(19, 28, 165);
+    font-family: Comic Sans, cursive;
+}
+
+p::after {
+    content: '';
+    background-image: url(http://s1.iconbird.com/ico/2013/10/464/w512h5121380984784forward.png);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-size: cover;
+    left: 320px;
+    transition: 1s;
+}
+
+p:hover::after {
+    transition: 1s;
+    transform: translateX(15px);
+}

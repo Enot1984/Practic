@@ -1,0 +1,11 @@
+body {
+    background-color:rgb(234, 192, 192);
+    margin: 100;
+    padding: 100;
+}
+
+ul {
+    list-style-type: square;
+    color:purple;
+    font-family: Comic Sans, cursive;
+}
